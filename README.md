@@ -146,7 +146,8 @@ Changelog
 
 0.1.1
 
-Improvements:
+Improvements: 
+
 - Added Game Menu with Logo
 - Added support for joysticks selection. For now, the first joystick port you use will be marked as selected and used. 
 - Added the first type of enemy "Cannibals" that can spawn on random islands. 
@@ -156,14 +157,18 @@ Improvements:
 - New "news" was included - Unloading, scouting, attacking and unsuccessful colonization.
 - Added support for multiline news
 - Decreased number of food needed for next level
-- Increase all buildings wood cost by 1
-Bugs:
+- Increase all buildings wood cost by 1 
+
+Bugs: 
+
 - Resolved issue when transported goods were not unloaded
 - Also resolve a case when setting the ship to Idle, did not cancel previous transport action (goods were still loaded).
 - Fixed wrong wood cost for buildings
 - Fixed bug for Islands that displayed “Your colony @Red Rock”.
 - Fixed bug for Ship's action status that displayed "Scout @Red Rock"
-- Corrected error that did not handle properly turns for some colonies
-Known issues:
+- Corrected error that did not handle properly turns for some colonies 
+
+Known issues: 
+
 - News screen is not able to handle to many news yet (it can actually crash the game :). News paging is on the To Do list. 
 - THere is a way to "spawn" resources using (un)loading action. Problem was diagnosed and there will be a fix for it
