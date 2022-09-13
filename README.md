@@ -1,5 +1,5 @@
 # C64-NewLands  
-New Lands v.0.1  
+New Lands v.0.1.1  
   
 New Lands is a game developed for Commodore 64.   
 Game combines elements of a strategy and simple economy in pirate styled genre.   
@@ -7,13 +7,15 @@ Game combines elements of a strategy and simple economy in pirate styled genre.
 Please notice, that this is alpha version of the game, without any real challange yet (no attacking pirates, victory conditions etc.).  
 This version focuses on "sim" aspect of the game, meaning exploration, expansion and building.  
   
-If you want to leave feedback and comment please do it through this form:  
-https://docs.google.com/forms/d/e/1FAIpQLSeCqGNMNIa4gmmbNZNr-SkFBsQi_jHZSxTsW9u-2gsmZqHYjg/viewform?usp=sf_link  
-  
-You can also contact me on Discord 64bites (@MagicKrol) or via email mzkrol@gmail.com  
+You can contact me on Discord 64bites (@MagicKrol) or via email mzkrol@gmail.com  
   
 # Quick guide:  
-  
+
+## CONTROLS   
+Use Joystick (both ports should work fine) for controls. 
+
+## OBJECTIVE   
+
 Your goal so far is to colonize as many islands as possible, expand your colonies to maximum and build a huge fleet.  
   
 ## ISLANDS  
@@ -84,14 +86,14 @@ Next turn: -3 + 3 = 0
 4. Patrol (NOT IMPLEMENTED YET)  
 Patrol is a defense action for one of your colonies. It will increase chances to defeat any attacking force that directs selected colony or any ship that (un)loads or repair ship in the colony.  
   
-5. Attack (NOT IMPLEMENTED YET)  
+5. Attack
 Selected ship will attack and try to defeat any enemy force on selectd island.   
   
 6. Repair (NOT IMPLEMENTED YET)  
 Action to repair all damage to your ship   
   
-7. Scout (NOT IMPLEMENTED YET)  
-Find if selected island isn't inhabited by indians or pirates.   
+7. Scout
+Find if selected island is inhabited by cannibals or pirates.   
   
 7. Idle   
 No action  
@@ -129,8 +131,8 @@ Populate
 All buildings need workers and for that you need a populated colonies. 1 population is needed for every level of your buildings.   
 Eg. Sawmill lvl 3 and Quarry lvl 1 will need in total 4 population.   
   
-To increase a population by 1, you need to spend food equal to current population + 1. Eg.   
-To increase population from 5 to 6, you need 6 food.   
+To increase a population by 1, you need to spend food equal to half of the future population (floor the result) + 1. Eg.   
+To increase population from 5 to 6, you need 6/2 + 1 = 3 + 1 = 4 food
   
 Construct  
 Allows to build new ships.   
@@ -139,3 +141,29 @@ By default all ships are built in 2 turns. But if level of your shipyard is high
   
 That's all for now!   
 Good luck have fun  
+
+Changelog
+
+0.1.1
+
+Improvements:
+- Added Game Menu with Logo
+- Added support for joysticks selection. For now, the first joystick port you use will be marked as selected and used. 
+- Added the first type of enemy "Cannibals" that can spawn on random islands. 
+- Implemented the simple version of "attack action", which for now simply removes cannibals from the islands (if you have enough guns loaded vs enemy group size).
+- Implemented "scout action". It's used to check if the island is inhabited by Cannibals. Ship's explore param affects the chances of success. 
+- Added logic to prevent colonizing islands if cannibals are present there. Colonization attempts without loaded guns can result in failure! 
+- New "news" was included - Unloading, scouting, attacking and unsuccessful colonization.
+- Added support for multiline news
+- Decreased number of food needed for next level
+- Increase all buildings wood cost by 1
+Bugs:
+- Resolved issue when transported goods were not unloaded
+- Also resolve a case when setting the ship to Idle, did not cancel previous transport action (goods were still loaded).
+- Fixed wrong wood cost for buildings
+- Fixed bug for Islands that displayed “Your colony @Red Rock”.
+- Fixed bug for Ship's action status that displayed "Scout @Red Rock"
+- Corrected error that did not handle properly turns for some colonies
+Known issues:
+- News screen is not able to handle to many news yet (it can actually crash the game :). News paging is on the To Do list. 
+- THere is a way to "spawn" resources using (un)loading action. Problem was diagnosed and there will be a fix for it
