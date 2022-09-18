@@ -1,4 +1,4 @@
-# C64-NewLands  
+# C64 New Lands  
 New Lands v.0.1.1  
   
 New Lands is a game developed for Commodore 64.   
@@ -142,12 +142,38 @@ By default all ships are built in 2 turns. But if level of your shipyard is high
 That's all for now!   
 Good luck have fun  
 
-Changelog
+Changelog  
 
-0.1.1
+0.2.0  
 
 Improvements: 
-
+  
+- Added battle mechanics. Guns give 50% chance to inflict a damage to the enemy and vice versa (where Cannibals' equivalent of guns is a village size)
+- Island defense works like armor. You need to inflict enough damage to the island itself, before you can inflict damage to the cannibals village. 
+- Changed "Hull" to "Cond." (Condition)
+- Decreased Hull/Cond. for all ships by 1
+- Repair action is now implemented. It allows to repair 1 damage with 1 wood. It requires shipyard in selected colony. 
+- Possibility to display multile pages of News (done by selecting NEWS option from menu)
+- For lvl 2 and lvl 3 (expanded) buildings size was increased from 1 to 2. 
+- Changed pseudorandom number generator function. 
+- Addd Scenarios (Free Play, Conquest, Survive, Peaceful Play)
+- Multiple changes to game balance (ship/building params and costs)
+  
+Bugs: 
+  
+- Fixed bugs that allowed to "spawn" resources by using transport action and cancelling it a specific way. 
+- Wrong building name when displaying "razed building" news.
+- Fixed a bunch of other, minor bugs
+- Guns production wasn't working good enough
+  
+Known issues:  
+  
+- So far none :)
+  
+0.1.1  
+  
+Improvements: 
+  
 - Added Game Menu with Logo
 - Added support for joysticks selection. For now, the first joystick port you use will be marked as selected and used. 
 - Added the first type of enemy "Cannibals" that can spawn on random islands. 
@@ -158,17 +184,17 @@ Improvements:
 - Added support for multiline news
 - Decreased number of food needed for next level
 - Increase all buildings wood cost by 1 
-
+  
 Bugs: 
-
+  
 - Resolved issue when transported goods were not unloaded
 - Also resolve a case when setting the ship to Idle, did not cancel previous transport action (goods were still loaded).
 - Fixed wrong wood cost for buildings
 - Fixed bug for Islands that displayed “Your colony @Red Rock”.
 - Fixed bug for Ship's action status that displayed "Scout @Red Rock"
 - Corrected error that did not handle properly turns for some colonies 
-
+  
 Known issues: 
-
+  
 - News screen is not able to handle to many news yet (it can actually crash the game :). News paging is on the To Do list. 
-- THere is a way to "spawn" resources using (un)loading action. Problem was diagnosed and there will be a fix for it
+- There is a way to "spawn" resources using (un)loading action. Problem was diagnosed and there will be a fix for it
