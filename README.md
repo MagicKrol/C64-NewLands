@@ -54,7 +54,7 @@ Frigate - Fast and nibble fighting ship.
 Exploration - How effective ship is in finding or scouting islands.   
 Load - how many resources can ship hold in a storage (including loaded guns)  
 Guns - how many guns can a ship use in a battle  
-Hull - represents ship condition and how difficult it is to destroy a ship  
+Condition - represents ship's and crew's condition and how difficult it is to destroy a ship  
 Wood cost - as the name says.   
 Shipyard - shipyard required level to construct a ship  
   
@@ -89,8 +89,8 @@ Patrol is a defense action for one of your colonies. It will increase chances to
 5. Attack
 Selected ship will attack and try to defeat any enemy force on selectd island.   
   
-6. Repair (NOT IMPLEMENTED YET)  
-Action to repair all damage to your ship   
+6. Repair
+Action to repair any ship damage.
   
 7. Scout
 Find if selected island is inhabited by cannibals or pirates.   
@@ -122,7 +122,7 @@ Fort - increases defense of the island
 Expand  
 Upgrade existing building, to the level of coresponding resource, except: Foundry, Shipyard, Fort.  
 Max level of any building is 3.   
-Expand action for any building takes 2 turns.   
+Expand action for any building takes 2 turns. Any expanded building level takes also 1 extra space of island (1 lvl building = 1 space, 2 lvl building = 3 space, 3 lvl building = 5 space)
   
 Raze  
 Completely destroys a building. Can be useful if you want to make a space for other buildings, or you cannot afford to populate your colony.  
