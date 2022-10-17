@@ -143,9 +143,27 @@ That's all for now!
 Good luck have fun  
 
 Changelog  
+  
+0.3.0  
 
+Improvements: 
+  
+- Added Pirates. Pirates start with a Stronghold on the last island. Pirates will try to expand on other islands and build hideouts. Their "colonies" can grow over time. More and bigger hideouts pirates have, more and stronger attacks they will deploy. 
+- Defeated colonies will have their population decreased and some resources will be lost. 
+- Patrol will add a ship to the defensive forces of the island, if attacked. 
+- New islands will now have some information about island params hidden by default. Scout island to get more precise information about it resources. 
+- Implemented all victory and defeat conditions, and all scenarios are now implemented.
+- Added current ship's load on transport screen 
+ 
+Bugs: 
+  
+- Some typos
+- Reimplement battle mechanics. It was full of bugs 
+- Could not colonize some islands 
+- Cancel button in Transport screen was cancelling action, but not moved resources. 
+ 
 0.2.0  
-
+ 
 Improvements: 
   
 - Added battle mechanics. Guns give 50% chance to inflict a damage to the enemy and vice versa (where Cannibals' equivalent of guns is a village size)
@@ -156,7 +174,7 @@ Improvements:
 - Possibility to display multile pages of News (done by selecting NEWS option from menu)
 - For lvl 2 and lvl 3 (expanded) buildings size was increased from 1 to 2. 
 - Changed pseudorandom number generator function. 
-- Addd Scenarios (Free Play, Conquest, Survive, Peaceful Play)
+- Added Scenarios (Free Play, Conquest, Survive, Peaceful Play)
 - Multiple changes to game balance (ship/building params and costs)
   
 Bugs: 
