@@ -7,6 +7,13 @@ Game combines elements of a strategy and simple economy in pirate styled genre.
 Please notice, that this is beta version of the game. Most of the game elements are already implemented, but it still might be a bit buggy and imbalanced (to hard, or to easy).
   
 You can contact me via email mzkrol@gmail.com  
+
+<img width="891" alt="newlands5" src="https://user-images.githubusercontent.com/22881963/196254788-9b58cc5f-0bd8-4dd7-9b4a-7c873ee4ac91.png">
+<img width="851" alt="newlands1" src="https://user-images.githubusercontent.com/22881963/196254745-40aaf572-d0ea-413d-8f65-0f9b70ea61ef.png">
+<img width="877" alt="newlands2" src="https://user-images.githubusercontent.com/22881963/196254761-56099838-0a30-43e4-b1b2-0c0ab046235c.png">
+<img width="883" alt="newlands3" src="https://user-images.githubusercontent.com/22881963/196254767-0f4d0823-6799-4d58-9ed5-5b1397130c58.png">
+<img width="852" alt="newlands4" src="https://user-images.githubusercontent.com/22881963/196254779-c904622c-c3af-4be0-853a-6a2934b50422.png">
+
   
 # Quick guide:  
 
