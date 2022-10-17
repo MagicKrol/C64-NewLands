@@ -1,13 +1,12 @@
 # C64 New Lands  
-New Lands v.0.2.0
+New Lands v.0.3.0 (BETA)
   
 New Lands is a game developed for Commodore 64.   
 Game combines elements of a strategy and simple economy in pirate styled genre.   
   
-Please notice, that this is alpha version of the game, without any real challange yet (no attacking pirates, victory conditions etc.).  
-This version focuses on "sim" aspect of the game, meaning exploration, expansion and building.  
+Please notice, that this is beta version of the game. Most of the game elements are already implemented, but it still might be a bit buggy and imbalanced (to hard, or to easy).
   
-You can contact me on Discord 64bites (@MagicKrol) or via email mzkrol@gmail.com  
+You can contact me via email mzkrol@gmail.com  
   
 # Quick guide:  
 
@@ -16,7 +15,12 @@ Use Joystick (both ports should work fine) for controls.
 
 ## OBJECTIVE   
 
-Your goal so far is to colonize as many islands as possible, expand your colonies to maximum and build a huge fleet.  
+There are 4 scenarios you can play.
+
+Conquer - you need to destroy all pirates hideouts and the stronghold. 
+Survive - try surviving until 50th turn. 
+Free play - Same as Conquer, but without victory conditions.
+Peaceful play - No enemies. 
   
 ## ISLANDS  
   
@@ -83,7 +87,7 @@ Wood: -3|3
 Ship has 3 wood, but will unload all of it.  
 Next turn: -3 + 3 = 0  
   
-4. Patrol (NOT IMPLEMENTED YET)  
+4. Patrol
 Patrol is a defense action for one of your colonies. It will increase chances to defeat any attacking force that directs selected colony or any ship that (un)loads or repair ship in the colony.  
   
 5. Attack
