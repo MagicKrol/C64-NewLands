@@ -168,8 +168,6 @@ Bugs:
 - Fixed Joystick in Port#2 (you can now use any joystick anytime) 
 - Resolved issue of not decreasing colony used space when fort is getting destroyed 
 
-
-
 0.3.0  
 
 Improvements: 
