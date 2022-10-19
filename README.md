@@ -36,7 +36,7 @@ Food - Required to populate your colonies.
 Stone - Stone is needed when you want to expand your 1 lvl buildings.   
 Iron - Iron can be used to make guns in Foundry.   
 Defense - How easy to defend island is. 0 meaning that island is easly accessible, with no natural barriers. 3 meaning that island is hard to attack.   
-Size - Literally how many buildings and their upgrades you can build.   
+Size - Literally how many buildings and their upgrades you can build (with 1 lvl building taking 1 space, 2 and 3 level buildings taking 2 space).   
   
 ## SHIPS:  
   
@@ -97,7 +97,7 @@ Selected ship will attack and try to defeat any enemy force on selectd island.
 Action to repair any ship damage.
   
 7. Scout
-Find if selected island is inhabited by cannibals or pirates.   
+Find if selected island is inhabited by cannibals or pirates, also investigates how big are island's resources.    
   
 7. Idle   
 No action  
@@ -147,7 +147,22 @@ That's all for now!
 Good luck have fun  
 
 Changelog  
+
+0.3.1  
+
+Improvements: 
   
+- Minor UI changes 
+ 
+Bugs: 
+  
+- Colony info screen was displaying wrong clony max. size (actually island size) 
+- Fixed text formating in News 
+- Fixed Joystick in Port#2 (you can now use any joystick anytime) 
+- Resolved issue of not decreasing colony used space when fort is getting destroyed 
+
+
+
 0.3.0  
 
 Improvements: 
