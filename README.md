@@ -160,10 +160,11 @@ Changelog
 Improvements: 
   
 - Minor UI changes 
+- Decreased chances of being attacked by pirates 
  
 Bugs: 
   
-- Colony info screen was displaying wrong clony max. size (actually island size) 
+- Colony info screen was displaying wrong colony max. size (actually island size) 
 - Fixed text formating in News 
 - Fixed Joystick in Port#2 (you can now use any joystick anytime) 
 - Resolved issue of not decreasing colony used space when fort is getting destroyed 
