@@ -1,5 +1,5 @@
 # C64 New Lands  
-New Lands v.0.3.1(BETA)
+New Lands v.0.3.2 (BETA)
   
 New Lands is a game developed for Commodore 64.   
 Game combines elements of a strategy and simple economy in pirate styled genre.   
@@ -53,11 +53,11 @@ There are 6 types of ships.
   
 ### Ship types:  
   
-Pinance - Very small, quick ship. It's perfect for exploration and scouting missions. Should avoid battles.   
+Pinnace - Very small, quick ship. It's perfect for exploration and scouting missions. Should avoid battles.   
 Sloop - Your first choice, when it comes to gun fights. Relatively good in all aspects.   
 Flyut - Mainly transport ship.   
 Brig - Solid balance between transporation, exploration and fire power.   
-Galeon - Big, dangerous but slow.   
+Galleon - Big trade ship, with solid fighting capabilities.   
 Frigate - Fast and nibble fighting ship.   
   
 ### Ship params:  
@@ -155,6 +155,27 @@ Good luck have fun
 
 Changelog  
 
+0.3.2 
+
+Improvements: 
+  
+- Moved action window, so it does not overlap colony/ship info. 
+- Reduced size of the default island 
+- 2 units of iron are now required to produce 1 gun 
+- Nerfed Galleon and Frigate. Made Galleon more trade focused instead of being good at everything. 
+ 
+Bugs: 
+ 
+- Fixed#5: Reassigning repair to another port does not reset repair state 
+- Fixed#4: Broken ship name in news in some cases. 
+- Fixed#2: Issue with line breaking in news
+- Some code fixes to hopefully reduce number of crashes 
+
+
+Known bugs: 
+ 
+- Random crashes 
+ 
 0.3.1  
 
 Improvements: 
