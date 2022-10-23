@@ -155,6 +155,15 @@ Good luck have fun
 
 Changelog  
 
+0.4 
+
+Improvements: 
+ 
+- Big change in island resources. Islands will now have a limited number of resources to gather. Also colonies can always expand their resource buildings to maximum level. This will force players to colonize more islands. 
+- Reimplemented how pirates spawn their hideouts, how their expand and how we calculate strength of pirates attack. Hideouts and strongold will now actually produce battle ships that can be used for defense or attack. 
+- Scout islands to get info about current number of pirates ships in their port. 
+- Reimplemented exploration chances of success. First islands are now explored more easily, while last islands will be much more difficult to find. 
+  
 0.3.2 
 
 Improvements: 
