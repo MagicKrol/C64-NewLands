@@ -164,6 +164,14 @@ Good luck have fun
 
 Changelog  
 
+0.4.1  
+
+Bugs: 
+  
+- Colony name is not displayed on Island details. 
+- Implemented properly the counter of how many cannibals and hideouts were discovered. 
+- Ship during a scout mission could be attacked even if there was no enemy on the island. 
+
 0.4 
 
 Improvements: 
