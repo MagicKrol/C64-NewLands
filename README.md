@@ -164,6 +164,12 @@ Good luck have fun
 
 Changelog  
 
+0.4.2  
+
+Bugs: 
+  
+- Fixed some bugs around fighting and displaying related news
+
 0.4.1  
 
 Bugs: 
