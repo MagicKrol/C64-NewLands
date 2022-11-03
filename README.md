@@ -1,5 +1,5 @@
 # C64 New Lands  
-New Lands v.0.4 (BETA)
+New Lands v.0.4.2 (BETA)
   
 New Lands is a game developed for Commodore 64.   
 The game combines elements of strategy and simple economy in the pirate styled genre.   
