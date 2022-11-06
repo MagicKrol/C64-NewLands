@@ -1,10 +1,10 @@
 # C64 New Lands  
-New Lands v.0.4.2 (BETA)
+New Lands v.1.0.0
   
 New Lands is a game developed for Commodore 64.   
 The game combines elements of strategy and simple economy in the pirate styled genre.   
   
-Please notice, that this is a beta version of the game. Most of the game elements are already implemented, but it still might be a bit buggy and imbalanced (to hard, or to easy).
+Please notice, that the game might be still a bit buggy and imbalanced (to hard, or to easy). I am still working on some tweaks here and there. 
   
 You can contact me via email mzkrol@gmail.com  
 
@@ -163,7 +163,20 @@ That's all for now!
 Good luck have fun  
 
 Changelog  
-
+ 
+1.0.0 
+ 
+Improvements: 
+ 
+- Added Save/Load game. It requires either Disk Drive and inserted floppy, or SD2IEC. If you use an emulator remember to attach an empty disk image (or you can just rely on state saving feature). 
+- Added pirates warning before they attack one of the colonies for Conquest mode.
+ 
+Bugs: 
+  
+- Fixed wrong check on wood availability in a colony when repairing a ship.
+- When cancelling populate action too much food was returned. 
+- Sometimes not all news were displayed. 
+ 
 0.4.2  
 
 Bugs: 
